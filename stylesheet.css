@@ -1,7 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    
+}
+
+*{
+    font-family: 'Poiret One', sans-serif;
+
 }
 
 .navbar {
@@ -37,6 +42,7 @@ body {
     color: #000000;
     font-weight: bold;
     transition: color 0.3s;
+    font-size: 20px;
 }
 
 .nav-list a:hover {
@@ -46,10 +52,20 @@ body {
 }
 .parallex_image{
     background-image: url("images/Landscape-Color.jpg");
-    min-height: 250px;
+    min-height: 300px;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.intro_text{
+    background-color: #313131;
+    color: rgb(236, 236, 236);
+    margin: auto;
+    width: 60%;
+    height: 20em;
+}
+.intro_text p, .intro_text strong{
+    padding: 30px;
 }
