@@ -44,3 +44,8 @@ body {
     text-decoration: underline;
     text-underline-offset: 2px;
 }
+.parallex_image{
+    height: 300px;
+    width: 100%;
+    background-color: grey;
+}
