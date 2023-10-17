@@ -76,3 +76,25 @@ body {
     font-weight: 300;
     font-size: 20px;
 }
+
+.submit_btn{
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    transition: ease-in .2s;
+    border: solid 1px transparent;
+}
+.submit_btn:hover{
+    background-color: #414141;
+    color: white;
+    border-color: white;
+}.submit_btn:active{
+    background-color: #939393;
+    color: #313131;
+}
+
+.container{
+    position: relative;
+}
+.container img{
+    width: 100%;
+}
