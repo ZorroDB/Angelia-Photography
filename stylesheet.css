@@ -121,6 +121,16 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.contact_gegevens{
+.contact_gegevens, .social_media, .footer_nav{
     list-style-type: none;
+    height: 100%;
+    padding-top: 30px;
 }
+
+.contact_gegevens{
+    margin-left: 30px;
+}
+.footer_nav{
+    margin-right: 30px;
+}
+
