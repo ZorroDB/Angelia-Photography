@@ -49,6 +49,7 @@ body {
     color: rgb(56, 56, 101);
     text-decoration: underline;
     text-underline-offset: 2px;
+    cursor: default;
 }
 .parallex_image{
     background-image: url("images/Landscape-Color.jpg");
@@ -132,5 +133,11 @@ body {
 }
 .footer_nav{
     margin-right: 30px;
+    padding-left: 0;
+    padding-right: 30px;
+}
+.social_media{
+    text-align: center;
+    padding-left: 0;
 }
 
