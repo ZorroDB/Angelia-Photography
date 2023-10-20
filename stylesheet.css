@@ -91,10 +91,22 @@ body {
     background-color: #939393;
     color: #313131;
 }
+.space{
+    height: 75px;
+}
+
+.col_contact{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding-bottom: 10px;
+}
 
 .container{
     position: relative;
 }
-.container img{
+
+.background_img{
+    margin-top: 60px;
     width: 100%;
+    position: absolute;
 }
