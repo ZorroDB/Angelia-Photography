@@ -9,6 +9,8 @@ body {
 
 }
 
+/* GENERAL NAVBAR */
+
 .navbar {
     position: fixed;
     height: 100px;
@@ -52,6 +54,9 @@ body {
 .nav-list a:hover {
     color: rgb(165, 165, 165);
 }
+
+/* HOME PAGE */
+
 .parallex_image{
     background-image: url("../images/Landscape-Color.jpg");
     min-height: 300px;
@@ -149,4 +154,21 @@ body {
 
 /* ABOUT ME PAGE */
 
-
+.about_img{
+    width: 100%;
+    background-image: url(../images/Landscape-Color.jpg);
+    height: 300px;
+    text-align: center;
+}
+.about_img h1{
+    font-size: 80px;
+    color: black;
+    font-weight: 900;
+    padding-top: 5%;
+}
+.about_img h2{
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
