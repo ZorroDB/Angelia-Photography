@@ -154,21 +154,10 @@ body {
 
 /* ABOUT ME PAGE */
 
-.about_img{
+.name{
     width: 100%;
-    background-image: url(../images/Landscape-Color.jpg);
-    height: 300px;
-    text-align: center;
+    padding-left: 90px;
 }
-.about_img h1{
-    font-size: 80px;
-    color: black;
-    font-weight: 900;
-    padding-top: 5%;
-}
-.about_img h2{
+.col_text{
     padding-top: 50px;
-    font-size: 40px;
-    font-weight: bold;
-    color: black;
 }
