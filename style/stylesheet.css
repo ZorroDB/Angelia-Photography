@@ -158,6 +158,11 @@ body {
     width: 100%;
     padding-left: 90px;
 }
-.col_text{
-    padding-top: 50px;
+.lead_text{
+    padding-top: 85px;
+}
+#line{
+    width: 200px;
+    height: 5px;
+    background-color: black;
 }
