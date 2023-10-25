@@ -2,7 +2,7 @@
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     $name = $_POST["name"];
-    $tel = $_POST["tel"]
+    $tel = $_POST["tel"];
     $email = $_POST["email"];
     $bericht = $_POST["bericht"];
 
@@ -12,11 +12,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $messagebody = "Naam: $name\nTel: $tel\nE-mail: $email\nBericht: $bericht";
     $headers = "Van $name";
 
-    if(mail($to, $subject, $messagebody, $headers)){
-        echo "uw bericht is verzonden!"
-    }else{
-        echo "There went something wrong."
+    if (mail($to, $subject, $messagebody, $headers)) {
+        $response = "The message has been deliverd!";
+    } else {
+        $response = "Oops! Something went wrong.";
     }
+
+    header("Location: contact.php?message=" . urlencode($response));
+    exit;
+
 }
 
 

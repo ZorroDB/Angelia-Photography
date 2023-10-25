@@ -207,3 +207,6 @@ body {
 .contact_text{
     position: relative;
 }
+#responseMessage{
+    font-size: 40px;
+}

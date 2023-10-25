@@ -33,21 +33,29 @@
       <div class="container text-start">
         <div class="row">
             <div class="col mb-3">
-            <p></p>
+            <p>   
+                <div id="responseMessage">
+                <?php
+                if (isset($_GET['message'])) {
+                    echo $_GET['message'];
+                }
+                ?>
+                </div>
+                
+                </form></p>
             </div>
             <div class="col mb-5 col_contact">
                 <form action="form_proces.php" method="post">
                 <h2 style="margin-top: 10px;">Contact formulier</h2>
-                <label for="name" style="margin-top: 10px;" class="form-label" >Name</label>
-                <input type="text" class="form-control" id="name" placeholder="ex: John Deere">
-                <label for="tel" style="margin-top: 10px;" class="form-label">Phone number</label>
-                <input type="tel" class="form-control" id="tel" placeholder="0612345678">
+                <label for="name" style="margin-top: 10px;" require ="form-label" >Name</label>
+                <input type="text" class="form-control" id="name" name="name" require placeholder="ex: John Deere">
+                <label for="tel" style="margin-top: 10px;" class="form-label" require >Phone number</label>
+                <input type="tel" class="form-control" name="tel" id="tel" require placeholder="0612345678">
                 <label for="emailadres" style="margin-top: 10px;" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="emailadres" placeholder="name@example.com">
-                <label for="textmessage" style="margin-top: 10px;" class="form-label">Your message</label>
-                <textarea class="form-control" id="textmessage" rows="5" style="margin-bottom: 10px;"></textarea>
+                <input type="email" class="form-control" id="emailadres" name="email" require placeholder="name@example.com">
+                <label for="textmessage" style="margin-top: 10px;"  class="form-label">Your message</label>
+                <textarea class="form-control" id="textmessage" name="bericht" require rows="5" style="margin-bottom: 10px;"></textarea>
                 <input type="submit" class="submit_btn" id="submit">
-                </form>
           </div>
         </div>
       </div>
