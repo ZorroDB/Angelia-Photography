@@ -35,8 +35,8 @@
             <div class="col mb-3">
             <p></p>
             </div>
-            
             <div class="col mb-5 col_contact">
+                <form action="form_proces.php" method="post">
                 <h2 style="margin-top: 10px;">Contact formulier</h2>
                 <label for="name" style="margin-top: 10px;" class="form-label" >Name</label>
                 <input type="text" class="form-control" id="name" placeholder="ex: John Deere">
@@ -47,7 +47,7 @@
                 <label for="textmessage" style="margin-top: 10px;" class="form-label">Your message</label>
                 <textarea class="form-control" id="textmessage" rows="5" style="margin-bottom: 10px;"></textarea>
                 <input type="submit" class="submit_btn" id="submit">
-                
+                </form>
           </div>
         </div>
       </div>
