@@ -29,11 +29,13 @@
     </div>
     <div class="space"></div>
     <img src="../images/1920x800.png" class="background_img">
+    <p class="contact_text">Neem contact op!</p>
       <div class="container text-start">
         <div class="row">
             <div class="col mb-3">
             <p></p>
             </div>
+            
             <div class="col mb-5 col_contact">
                 <h2 style="margin-top: 10px;">Contact formulier</h2>
                 <label for="name" style="margin-top: 10px;" class="form-label" >Name</label>
@@ -45,6 +47,7 @@
                 <label for="textmessage" style="margin-top: 10px;" class="form-label">Your message</label>
                 <textarea class="form-control" id="textmessage" rows="5" style="margin-bottom: 10px;"></textarea>
                 <input type="submit" class="submit_btn" id="submit">
+                
           </div>
         </div>
       </div>

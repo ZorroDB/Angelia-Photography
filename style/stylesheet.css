@@ -12,6 +12,7 @@ body {
 /* GENERAL NAVBAR */
 
 .navbar {
+    z-index: 100;
     position: fixed;
     height: 100px;
     top: 0;
@@ -202,4 +203,7 @@ body {
 
 .contact_banner h1{
     font-size: 80px;
+}
+.contact_text{
+    position: relative;
 }
