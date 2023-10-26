@@ -29,19 +29,17 @@
     </div>
     <div class="space"></div>
     <img src="../images/1920x800.png" class="background_img">
-    <p class="contact_text">Neem contact op!</p>
       <div class="container text-start">
         <div class="row">
             <div class="col mb-3">
-            <p>   
-                <div id="responseMessage">
+            <p> 
+              <div id="responseMessage">
                 <?php
                 if (isset($_GET['message'])) {
                     echo $_GET['message'];
                 }
                 ?>
-                </div>
-                
+              </div>
                 </form></p>
             </div>
             <div class="col mb-5 col_contact">

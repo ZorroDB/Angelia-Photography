@@ -12,7 +12,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $messagebody = "Naam: $name\nTel: $tel\nE-mail: $email\nBericht: $bericht";
     $headers = "Van $name";
 
-    if (mail($to, $subject, $messagebody, $headers)) {
+    if(mail($to, $subject, $messagebody, $headers)) {
         $response = "The message has been deliverd!";
     } else {
         $response = "Oops! Something went wrong.";
