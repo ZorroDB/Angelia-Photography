@@ -212,11 +212,19 @@ body{
 
 /* GALLERY PAGE */
 
+.slider_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
 .slider {
-    width: 100%;
+    width: 60%;
     height: 500px;
     position: relative;
-  }
+}
   
   .slider img {
     width: 100%;
@@ -224,6 +232,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
+    box-shadow: grey 1px 1px 10px 1px;
   }
   
   .slider img:first-child {
