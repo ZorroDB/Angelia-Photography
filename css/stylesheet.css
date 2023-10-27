@@ -1,12 +1,10 @@
-body {
+body{
     margin: 0;
     padding: 0;
-    
 }
 
 *{
     font-family: 'Poiret One', sans-serif;
-
 }
 
 /* GENERAL NAVBAR */
@@ -210,4 +208,26 @@ body {
 }
 #responseMessage{
     font-size: 40px;
+}
+
+/* GALLERY PAGE */
+
+.slider-container {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider{
+    display: flex;
+    transition: transform 0.5s;
+}
+.slider img{
+    width: 100%;
+    height: auto;    
+}
+
+#prevBtn, #nextBtn{
+    margin: 10px;
 }
