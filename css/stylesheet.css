@@ -212,22 +212,42 @@ body{
 
 /* GALLERY PAGE */
 
-.slider-container {
+.slider {
     width: 100%;
-    height: 80vh;
-    overflow: hidden;
+    height: 500px;
     position: relative;
-}
-
-.slider{
-    display: flex;
-    transition: transform 0.5s;
-}
-.slider img{
+  }
+  
+  .slider img {
     width: 100%;
-    height: auto;    
-}
-
-#prevBtn, #nextBtn{
-    margin: 10px;
-}
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .slider img:first-child {
+    z-index: 1;
+  }
+  
+  .slider img:nth-child(2) {
+    z-index: 0;
+  }
+  .navigation-button {
+    text-align: center;
+    position: relative;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .active, .dot:hover {
+    background-color: #313131;
+  }
