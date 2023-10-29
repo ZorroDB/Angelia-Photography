@@ -260,3 +260,14 @@ body{
   .active, .dot:hover {
     background-color: #313131;
   }
+  .top-margin {
+    margin-top: 10px;
+}
+.img-3 img{
+    border: solid 1px black;
+    height: 300px;
+}
+.img-6 img{
+    border: 1px solid black;
+    height: 500px;
+}

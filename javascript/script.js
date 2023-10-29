@@ -12,7 +12,7 @@ function ChangeSlide(n){
 
 if (n != undefined) {
     clearInterval(timer);
-    timer = setInterval(changeSlide, interval);
+    timer = setInterval(ChangeSlide, interval);
     currentImg = n;
 }
 
