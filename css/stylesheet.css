@@ -272,10 +272,10 @@ body{
     height: 500px;
 }
 
-#myImg{
+.myImg{
     transition: ease-in 0.2s;
 }
-#myImg:hover {
+.myImg:hover {
     opacity: 0.6;
 }
 

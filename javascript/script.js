@@ -23,11 +23,16 @@ if (n != undefined) {
 var timer = setInterval(ChangeSlide, interval);
 
 
+
+
+
+
 var modal = document.getElementById("myModal");
 
-var img = document.getElementById("myImg");
+var imgs = document.getElementsByClassName("myImg");
 var modalImg = document.getElementById("img01");
-img.onclick = function(){
+
+imgs.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
   console.log("successfully showing image");
@@ -37,4 +42,7 @@ var span = document.getElementsByClassName("close")[0];
 
 span.onclick = function() {
   modal.style.display = "none";
+  console.log("Image closed");
 }
+
+console.log("nothing");
