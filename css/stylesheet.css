@@ -326,3 +326,14 @@ body{
     text-decoration: none;
     cursor: pointer;
   }
+
+.text_block{
+    width: 80vw;
+    background-color: #313131;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
