@@ -78,6 +78,7 @@ body{
     width: 60%;
     height: 90%;
     padding: 30px;
+    box-shadow: grey 1px 1px 10px 1px;
 }
 
 .intro_text p, .intro_text strong {
