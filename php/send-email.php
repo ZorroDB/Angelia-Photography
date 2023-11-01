@@ -1,6 +1,4 @@
 <?php
-
-if($_SERVER["REQUEST_METHOD"] == "POST"){
     $name = $_POST["name"];
     $tel = $_POST["tel"];
     $email = $_POST["email"];
@@ -21,9 +19,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     header("Location: contact.php?message=" . urlencode($response));
     exit;
 
-}
 
 
 
 ?>
-
