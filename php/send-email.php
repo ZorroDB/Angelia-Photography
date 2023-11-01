@@ -4,6 +4,15 @@
     $email = $_POST["email"];
     $bericht = $_POST["bericht"];
 
+    require "vendor/autoload.php";
+
+    use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\SMTP;
+
+    $mail = new PHPMailer(true);
+
+    $mail -> isSMTP();
+    $mail -> SMTPAuth = true;
 
     $to = "diegoblom01@gmail.com";
     $subject = "contact form website van $name";
