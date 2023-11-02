@@ -257,6 +257,7 @@ niet meer in gebruik*/
   .navigation-button {
     text-align: center;
     position: relative;
+    top: 100px;
   }
   
   .dot {
@@ -348,4 +349,6 @@ niet meer in gebruik*/
     padding-top: 10px;
     padding-bottom: 40px;
     margin: 0 auto;
+    box-shadow: grey 1px 1px 10px 1px;
+
 }
