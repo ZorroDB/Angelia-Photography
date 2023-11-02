@@ -49,13 +49,13 @@
                 <!-- Contact formulier vragen -->
                 <h2 style="margin-top: 10px;">Contact formulier</h2>
                 <label for="name" style="margin-top: 10px;" require ="form-label" >Name</label>
-                <input type="text" class="form-control" id="name" name="name" require placeholder="ex: John Deere">
-                <label for="tel" style="margin-top: 10px;" class="form-label" require >Phone number</label>
-                <input type="tel" class="form-control" name="tel" id="tel" require placeholder="0612345678">
+                <input type="text" class="form-control" id="name" maxlength="20" name="name" required placeholder="ex: John Deere">
+                <label for="tel" style="margin-top: 10px;" class="form-label" required >Phone number</label>
+                <input type="tel" class="form-control" name="tel" id="tel" maxlength="10" required placeholder="0612345678">
                 <label for="emailadres" style="margin-top: 10px;" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="emailadres" name="email" require placeholder="name@example.com">
+                <input type="email" class="form-control" id="emailadres" name="email" maxlength="30" required placeholder="name@example.com">
                 <label for="textmessage" style="margin-top: 10px;"  class="form-label">Your message</label>
-                <textarea class="form-control" id="textmessage" name="bericht" require rows="5" style="margin-bottom: 10px;"></textarea>
+                <textarea class="form-control" id="textmessage" name="bericht" required rows="5" maxlength="100" style="margin-bottom: 10px;"></textarea>
                 <input type="submit" class="submit_btn" id="submit">
           </div>
         </div>
