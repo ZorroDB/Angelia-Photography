@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Photo gallery</title>
+
+    <!-- Linking van style en fonts + bootstrap -->
     <link rel="stylesheet" href="../css/stylesheet.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
@@ -16,11 +18,14 @@
       crossorigin="anonymous"
     />
   </head>
+
   <body>
     <!--Navbar-->
     <nav class="navbar">
       <div class="logo">
-        <a href="../index.html"><img src="../images/image0.jpeg" alt="Logo" /></a>
+        <a href="../index.html"
+          ><img src="../images/image0.jpeg" alt="Logo"
+        /></a>
       </div>
       <ul class="nav-list">
         <li><a href="../index.html">Home</a></li>
@@ -29,6 +34,8 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+
+    <!-- Slider -->
     <div class="slider_container">
       <div class="slider">
         <img id="img-1" src="../images/DSC_4219 kopie.jpg" alt="Image 1" />
@@ -36,6 +43,8 @@
         <img id="img-3" src="../images/DSC_9551 kopie.jpg" alt="Image 3" />
       </div>
       <br />
+
+      <!-- Dots voor navigatie slider -->
       <div class="navigation-button">
         <span class="dot active" onclick="ChangeSlide(0)"></span>
         <span class="dot" onclick="ChangeSlide(1)"></span>
@@ -44,23 +53,23 @@
     </div>
     <div class="space1"></div>
 
+    <!-- Grid voor afbeeldingen (verschillende groottes) -->
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
           <img
             src="../images/_MG_4183.jpg"
             class="w-100 shadow-1-strong rounded mb-4 myImg"
-            class="w-100 shadow-1-strong rounded mb-4 myImg"
             alt="Girl Cry"
             onclick="imgEnlarge()"
           />
-
+          <!-- onclick functie voor afbeelding -->
           <img
             src="../images/DSC_2566 kopie.jpg"
             class="w-100 shadow-1-strong rounded mb-4 myImg"
-            class="w-100 shadow-1-strong rounded mb-4 myImg"
             alt="Black white picture"
-            onclick="imgEnlarge()";
+            onclick="imgEnlarge()"
+            ;
           />
         </div>
 
@@ -68,19 +77,17 @@
           <img
             src="../images/DSC_9302 kopie 2.jpg"
             class="w-100 shadow-1-strong rounded mb-4 myImg"
-            class="w-100 shadow-1-strong rounded mb-4 myImg"
             alt="Black white picture"
-            onclick="imgEnlarge()";
-
+            onclick="imgEnlarge()"
+            ;
           />
 
           <img
             src="../images/DSC_4181 kopie.jpg"
             class="w-100 shadow-1-strong rounded mb-4 myImg"
-            class="w-100 shadow-1-strong rounded mb-4 myImg"
             alt="color picture"
-            onclick="imgEnlarge()";
-
+            onclick="imgEnlarge()"
+            ;
           />
         </div>
 
@@ -88,36 +95,53 @@
           <img
             src="../images/DSC_9551 kopie.jpg"
             class="w-100 shadow-1-strong rounded mb-4 myImg"
-            class="w-100 shadow-1-strong rounded mb-4 myImg"
             alt="face picture"
-            onclick="imgEnlarge()";
-
+            onclick="imgEnlarge()"
+            ;
           />
 
           <img
             src="../images/DSC_9873 kopie.jpg"
             class="w-100 shadow-1-strong rounded mb-4 myImg"
-            class="w-100 shadow-1-strong rounded mb-4 myImg"
             alt="Image in dress"
-            onclick="imgEnlarge()";
-
+            onclick="imgEnlarge()"
+            ;
           />
         </div>
       </div>
     </div>
 
+    <!-- modal voor foto (imgEnlarge()) -->
     <div id="myModal" class="modal">
       <span class="close">&times;</span>
       <img class="modal-content" id="img01" />
     </div>
     <div class="space"></div>
-      <div class="text_block">
-        <h2>portretten</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed lorem tristique, blandit mi eu, fringilla mi. Duis convallis nunc vehicula dui dignissim semper. Duis hendrerit id tortor eu hendrerit. Nulla tempus leo eget lectus hendrerit, non placerat ipsum iaculis. Nunc posuere nisi tellus, a mattis leo dapibus ac. Vivamus pulvinar cursus diam, ac consectetur mi interdum eget. Fusce rhoncus dui id nulla laoreet, eget porttitor libero hendrerit. Aliquam sit amet tristique nulla. In non ligula id quam tempus accumsan nec sed nulla. Integer eget augue rhoncus, interdum urna ac, porta odio. Curabitur at neque eu odio sodales sodales. Aenean luctus sapien tristique vulputate elementum. Cras et velit at justo finibus suscipit non vitae elit. Quisque nec mauris quis est bibendum venenatis sagittis sit amet nulla. Ut ullamcorper, eros nec volutpat facilisis, diam lorem faucibus urna, vitae cursus lectus sem ut mi.</p>
-      </div>
 
-      <div class="space1"></div>
+    <!-- informatie block -->
+    <div class="text_block">
+      <h2>portretten</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed lorem
+        tristique, blandit mi eu, fringilla mi. Duis convallis nunc vehicula dui
+        dignissim semper. Duis hendrerit id tortor eu hendrerit. Nulla tempus
+        leo eget lectus hendrerit, non placerat ipsum iaculis. Nunc posuere nisi
+        tellus, a mattis leo dapibus ac. Vivamus pulvinar cursus diam, ac
+        consectetur mi interdum eget. Fusce rhoncus dui id nulla laoreet, eget
+        porttitor libero hendrerit. Aliquam sit amet tristique nulla. In non
+        ligula id quam tempus accumsan nec sed nulla. Integer eget augue
+        rhoncus, interdum urna ac, porta odio. Curabitur at neque eu odio
+        sodales sodales. Aenean luctus sapien tristique vulputate elementum.
+        Cras et velit at justo finibus suscipit non vitae elit. Quisque nec
+        mauris quis est bibendum venenatis sagittis sit amet nulla. Ut
+        ullamcorper, eros nec volutpat facilisis, diam lorem faucibus urna,
+        vitae cursus lectus sem ut mi.
+      </p>
+    </div>
 
+    <div class="space1"></div>
+
+    <!-- footer -->
     <footer class="footer">
       <ul class="contact_gegevens">
         <h3>Contact</h3>
@@ -127,7 +151,11 @@
       </ul>
       <ul class="social_media">
         <h3>Social media</h3>
-        <a href="https://www.instagram.com/angeliadubois_fotografie/" target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i></a>
+        <a
+          href="https://www.instagram.com/angeliadubois_fotografie/"
+          target="_blank"
+          ><i class="fa-brands fa-instagram fa-xl" style="color: #ffffff"></i
+        ></a>
         <i class="fa-brands fa-facebook fa-xl" style="color: #ffffff"></i>
         <i class="fa-brands fa-pinterest fa-xl" style="color: #ffffff"></i>
       </ul>
