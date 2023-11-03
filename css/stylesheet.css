@@ -353,3 +353,7 @@ body {
   text-decoration: underline;
   text-underline-offset: 8px;
 }
+.img_about_me{
+  box-shadow: grey 1px 1px 15px 1px;
+  height: 800px !important;
+}
