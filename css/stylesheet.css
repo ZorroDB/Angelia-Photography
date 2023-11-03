@@ -108,6 +108,7 @@ body {
 }
 .img_info {
   box-shadow: grey 1px 1px 15px 1px;
+  height: 600px !important;
 }
 .intro_text,
 .slider img,
@@ -165,6 +166,7 @@ body {
   margin-top: 60px;
   width: 100%;
   position: absolute;
+  height: 90%;
 }
 .footer {
   width: 100%;
@@ -342,4 +344,12 @@ body {
   color: #fff;
   padding: 10px 20px 40px;
   margin: 0 auto;
+}
+.text_info{
+  font-size: 25px;
+}
+.title_info{
+  font-weight: 1000;
+  text-decoration: underline;
+  text-underline-offset: 8px;
 }
