@@ -1,0 +1,1 @@
+const cursor=document.querySelectorAll(".cursor"),links=document.querySelectorAll(".link");window.addEventListener("mousemove",e=>{let s=e.pageX,r=e.pageY;cursor.forEach(e=>{e.style.left=`${s}px`,e.style.top=`${r}px`,links.forEach(s=>{s.addEventListener("mouseenter",()=>{e.classList.add("hover")}),s.addEventListener("mouseleave",()=>{e.classList.remove("hover")})})})});
