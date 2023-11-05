@@ -94,14 +94,24 @@ body {
   transition: color 0.3s;
   font-size: 20px;
 }
-
-
-
-
-
+.btn_info{
+  position: relative;
+  left: 40vw;
+}
+.info_btns{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 22px;
+  background-color: #313131;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-family: "Poiret One", sans-serif;
+  text-transform: uppercase;
+}
 .parallex_image {
   background-image: url("../images/img_para.jpg");
-  min-height: 300px;
+  min-height: 500px;
   width: 100%;
   background-attachment: fixed;
   background-position: center 80% ;
@@ -184,7 +194,7 @@ body {
   margin-top: 60px;
   width: 100%;
   position: absolute;
-  height: 90%;
+  height: 80%;
 }
 .footer {
   width: 100%;
