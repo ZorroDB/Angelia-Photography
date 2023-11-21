@@ -16,7 +16,16 @@ body {
 .space2{
   height: 250px;
 }
-
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  z-index: 1001;
+  border-radius: 50%;
+  background-color: #313131;
+  border: #414141;
+}
 /* navbar */
 .link,
 .nav-list a {
@@ -30,7 +39,6 @@ body {
 }
 #current {
   text-decoration: line-through;
-  transform: translateY(50%);
 }
 .logo img {
   height: 80px;
