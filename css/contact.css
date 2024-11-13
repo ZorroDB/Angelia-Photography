@@ -1,0 +1,131 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.nav-link {
+  color: #333 !important;
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  color: #000 !important;
+}
+
+.nav-link.active {
+  color: #007bff !important;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.contact-hero {
+  padding: 50px 0;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.contact-hero h1 {
+  font-family: "Poiret One", cursive;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.contact-hero p {
+  font-weight: 300;
+  color: #666;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.contact-form-section .form-label {
+  font-weight: 500;
+}
+
+.contact-form-section button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form-section button:hover {
+  background-color: #0056b3;
+}
+
+/* Contact Details Section */
+.contact-details h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-details ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-details .social-icon {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.contact-details .social-icon:hover {
+  color: #007bff;
+}
+
+/* Google Maps Section */
+.map-container {
+  margin-top: 30px;
+}
+
+iframe {
+  border-radius: 8px;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.2rem;
+}
+
+.footer a:hover {
+  color: #007bff;
+}
